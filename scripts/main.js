@@ -1,5 +1,7 @@
 const canvas = document.getElementById('drawingCanvas');
 const ctx = canvas.getContext('2d');
+canvas.width = 600;  // Set canvas width
+canvas.height = 600;  // Set canvas height
 let gridSize = document.getElementById('gridSize').value;
 let gridSlider = document.getElementById('gridSize');
 let ddaBtn = document.getElementById('ddaBtn');
